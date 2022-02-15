@@ -1,0 +1,102 @@
+<!DOCTYPE htm>
+<html>
+
+<head>
+    <title> Courtney Kaye Mok</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<script>
+    var spans = '<span>' + str.split('').join('</span><span>') + '</span>';
+    $(spans).hide().appendTo('.css-typing').each(function(i) {
+        $(this).delay(100 * i).css({
+            display: 'inline',
+            opacity: 0
+        }).animate({
+            opacity: 1
+        }, 100);
+    });
+</script>
+
+<body>
+    <div class="w3-top">
+        <div class="w3-bar w3-padding w3-card">
+            <img src="./assets/CM_Logo.png" class="w3-bar-item" style="width:80px">
+            <a href="home.html" class="w3-bar-item" style="margin-top: 10px; margin-left:0px;font-size: 20px">  Courtney Kaye Mok</a>
+            <a href="Resume.pdf" target="_blank" class="w3-bar-item w3-right">Resume</a>
+            <a href="blogposts.html" class="w3-bar-item w3-right">Blog Posts</a>
+            <a href="home.html#about" class="w3-bar-item w3-right">About</a>
+        </div>
+    </div>
+
+    <div class="w3-panel">
+        <p></p>
+        <p></p>
+        <p></p>
+    </div>
+    <!--Intro-->
+    <div class="w3-container w3-margin-top" id='section' style="background-color: rgb(246, 246, 246);">
+        <div class="w3-row w3-margin">
+            <div class="w3-col m7 w3-left-align" id="intro">
+
+                <div class="css-typing">
+                    <h6 id="code"><i>class </i><b id="purple" style='font-size: 3vw;'>Courtney_Kaye_Mok</b><span id='grey'>():</span> </h6>
+                </div>
+                <div class="css-typing">
+                    <h7 id="code"><i>&emsp;&emsp;&emsp;&emsp;def <span id="blue"><b>__init__</b></span></i><span id='grey'>(</span><span id="purple"><i>self</i></span><span id="grey">):</span></h7>
+                </div>
+                <div class="css-typing">
+                    <h7 id="blue"><i> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;self.</i><span id="purple">title</span><span id="grey"> = </span><span id="string">"Data Scientist"</span></h7>
+                </div>
+                <div class="css-typing">
+                    <h7 id="blue"><i> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;self.</i><span id="purple">portfolio</span><span id="grey"> = </span><span id="string">"Portfolio"</span></h7>
+                </div>
+                <div class="css-typing">
+                    <h7 id="blue"><i> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;self.</i><span id="purple">resume</span><span id="grey"> = </span><span id="string">"Resume"</span></h7>
+                </div>
+            </div>
+            <div class="w3-col m3 w3-right-align w3-margin-left">
+                <img src="./assets/me.jpg" alt="me" style="width:35vw; border-radius: 50%;">
+            </div>
+
+        </div>
+    </div>
+    <!--End Intro-->
+    <!--About Me-->
+    <div class="w3-container w3-margin-top" id='section' style="margin-left: 20px;">
+
+        <div class="w3-row w3-margin">
+            <div class="w3-col m3 w3-center w3-margin-right" style="padding-top: 100px;">
+                <h6 id="blue" style="font-family:consolas;"><i>self.</i><span id="purple">about</h6>
+                    <img src="./assets/me.jpg" alt="me" style="width:20vw; border-radius: 50%;">
+                </div>
+                <div class="w3-col m8 w3-left-align w3-right" id="about">
+                    
+                    <blockquote>
+                        I’m a data scientist with a background in Artificial Intelligence and Machine Learning and a passion for developing innovative data stories. I have a passion for coding and to continue learning new libraries and develop my coding skills. I am interested in the intersection of data decision making and strive to develop creative and efficient solutions to challenging problems. I have experience self managing large solo projects, but I also thrive in cooperative environments as a leader and as a team player.
+                        <br><br>
+                        I love learning languages whether it's  spoken languages or a computer languages. I grew up speaking Mandarin and Cantonese and in college I picked up Japanese and Korean. In my spare time I enjoy playing video games, making digital art, and playing with my dog Luna - who just so happends to be the best girl in the entire world.
+                        <br><br>
+                        <button class="primary-btn">ABOUT ME</button>
+                    </blockquote>
+                   
+                </div>
+                
+            </div>
+        </div>
+        <!--End About-->
+       
+        <!--Footer-->
+        <footer class="w3-container w3-center w3-margin-top" style="background-color: #F5E1FD">
+            <p>Find me on social media.</p>
+            <i class="fa fa-instagram w3-hover-opacity">&emsp;&emsp;</i>
+            <i class="fa fa-github w3-hover-opacity">&emsp;&emsp;</i>
+            <i class="fa fa-linkedin w3-hover-opacity"></i>
+            <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+          </footer>
+    </body>
+</html>

@@ -1,186 +1,103 @@
-<!DOCTYPE html>
+<!DOCTYPE htm>
 <html>
-<title>Courtney Kaye Mok</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-2018.css">
-<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-camo.css">
-<style>
-body,h1,h2,h3,h4,h5,h6,h7,h8,h9 {margin-top:-1px;margin-bottom:-1px; font-family: "Raleway", sans-serif}
-ul, p {margin-top:-1px;}
-</style>
-<body style="background-color: #b399d4">
 
-<!-- w3-content defines a container for fixed size centered content, 
-and is wrapped around the whole page content, except for the footer in this example -->
+<head>
+    <title> Courtney Kaye Mok</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<!-- Header -->
-<div class="w3-top">
-  <div class="w3-bar w3-padding w3-card" style="letter-spacing:4px; background-color: #F5E1FD">
-    <img src="CM_Logo.png" class="w3-bar-item" style="width:80px">
-    <a class="w3-bar-item" style="margin-top: 10px; margin-left:0px;font-size: 20px">  Courtney Kaye Mok</a>
-    <a href="Resume.pdf" target="_blank" class="w3-bar-item w3-right w3-button"style="margin-top: 15px">Resume</a>
-    <a href="blogposts.html" class="w3-bar-item w3-right w3-button"style="margin-top: 15px">Blog Posts</a>
-    <a href="index.html" class="w3-bar-item w3-right w3-button"style="margin-top: 15px">About</a>
-    
-    
-  </div>
-</div>
-<div class="w3-panel">
-<p></p>
-<p></p>
-<p></p>
-</div>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<script>
+    var spans = '<span>' + str.split('').join('</span><span>') + '</span>';
+    $(spans).hide().appendTo('.css-typing').each(function(i) {
+        $(this).delay(100 * i).css({
+            display: 'inline',
+            opacity: 0
+        }).animate({
+            opacity: 1
+        }, 100);
+    });
+</script>
 
-<!-- Grid -->
-<div class="w3-cell" >
-<!-- Blog entries -->
-<div class="w3-cell l8 s12" style="padding-top: 40px">
-  <!-- About Me -->
-  <div id="about" class="w3-card-4 w3-margin w3-camo-black" style="font-family:consolas;">
- 	 <div class="w3-cell m6 w3-padding-large w3-container">
-    	<img src="me.jpg" alt="me" width = 200 height=200 >
-     </div>
-     <div class="w3-cell m6">
-    	<div class="w3-left-align w3-padding-large">
-        	<h10 class="w3-text-light-blue"><i> class</i> <span class="w3-text-lime">Courtney_Kaye_Mok </span><span class="w3-text-white">(</span><span class="w3-text-lime"><i>Data Scientist</i></span><span class ="w3-text-white">):</span> </h10>
-
-        	<p class ="w3-margin-left"><h10 class="w3-text-light-blue"><i>def __init__</i><span class="w3-text-white">(</span><span class="w3-text-orange"><i>self</i></span><span class="w3-text-white">,</span><span class="w3-text-orange"><i> school</i></span><span class="w3-text-white">,</span><span class="w3-text-orange"><i> major</i></span><span class="w3-text-white">,</span><span class="w3-text-orange"><i> graduation</i></span><span class="w3-text-white">):</span></h10></p>
-        	<!--School-->
-        	<p class="w3-margin-left"><h10 class="w3-text-orange w3-margin-left"><i>self.</i><span class="w3-text-white">school</span><span class="w3-text-pink"> = </span><span class="w3-text-amber">"Barnard College"</span></h10></p>
-        	<!--Major-->
-        	<p class="w3-margin-left"><h10 class="w3-text-orange w3-margin-left"><i>self.</i><span class="w3-text-white">major</span><span class="w3-text-pink"> = </span><span class="w3-text-amber">"Computer Science"</span></h10></p>
-        	<!--Graduation-->
-        	<p class="w3-margin-left"><h10 class="w3-text-orange w3-margin-left"><i>self.</i><span class="w3-text-white">graduation</span><span class="w3-text-pink"> = </span><span class="w3-text-amber">"May 2020"</span></h10></p>
+<body>
+    <div class="w3-top">
+        <div class="w3-bar w3-padding w3-card">
+            <img src="./assets/CM_Logo.png" class="w3-bar-item" style="width:80px">
+            <a href="home.html" class="w3-bar-item" style="margin-top: 10px; margin-left:0px;font-size: 20px">  Courtney Kaye Mok</a>
+            <a href="Resume.pdf" target="_blank" class="w3-bar-item w3-right">Resume</a>
+            <a href="blogposts.html" class="w3-bar-item w3-right">Blog Posts</a>
+            <a href="home.html#about" class="w3-bar-item w3-right">About</a>
         </div>
     </div>
-    
-    <div class="w3-container" >
-      
-      <h5 class="w3-text-light-blue"><b><i>def About_Me </i><span class="w3-text-white">(</span><span class="w3-text-orange"><i>self </i></span><span class="w3-text-white">):</span></b></h5>
+
+    <div class="w3-panel">
+        <p></p>
+        <p></p>
+        <p></p>
     </div>
+    <!--Intro-->
+    <div class="w3-container w3-margin-top" id='section' style="background-color: rgb(246, 246, 246);">
+        <div class="w3-row w3-margin">
+            <div class="w3-col m7 w3-left-align" id="intro">
 
-    <div class="w3-container">
-      <p class="w3-margin-left w3-text-light-blue">print<span class="w3-text-white">(</span><span class="w3-text-amber"> "I’m a data scientist with a background in Artificial Intelligence and Machine Learning with a passion for developing innovative data stories. I have a passion for coding and to continue learning new libraries and develop my coding skills. I am interested in the intersection of data decision making and strive to develop creative and efficient solutions to challenging problems. I have experience self managing large solo projects, but I also thrive in cooperative environments as a leader and as a team player.
-"</span><span class="w3-text-white">)</span></p>
-      
+                <div class="css-typing">
+                    <h6 id="code"><i>class </i><b id="purple" style='font-size: 3vw;'>Courtney_Kaye_Mok</b><span id='grey'>():</span> </h6>
+                </div>
+                <div class="css-typing">
+                    <h7 id="code"><i>&emsp;&emsp;&emsp;&emsp;def <span id="blue"><b>__init__</b></span></i><span id='grey'>(</span><span id="purple"><i>self</i></span><span id="grey">):</span></h7>
+                </div>
+                <div class="css-typing">
+                    <h7 id="blue"><i> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;self.</i><span id="purple">title</span><span id="grey"> = </span><span id="string">"Data Scientist"</span></h7>
+                </div>
+                <div class="css-typing">
+                    <h7 id="blue"><i> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;self.</i><span id="purple">portfolio</span><span id="grey"> = </span><span id="string">"Portfolio"</span></h7>
+                </div>
+                <div class="css-typing">
+                    <h7 id="blue"><i> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;self.</i><span id="purple">resume</span><span id="grey"> = </span><span id="string">"Resume"</span></h7>
+                </div>
+            </div>
+            <div class="w3-col m3 w3-right-align w3-margin-left">
+                <img src="./assets/me.jpg" alt="me" style="width:35vw; border-radius: 50%;">
+            </div>
+
+        </div>
     </div>
-  </div>
-  
+    <!--End Intro-->
+    <!--About Me-->
+    <div class="w3-container w3-margin-top" id='section' style="margin-left: 20px;">
 
-  <!-- Education -->
-  <div id="Education" class="w3-card-4 w3-margin"  style="background-color: #F5E1FD">
-    <div class="w3-container">
-      <h2><b>Education</b></h2>
-      <h4><b>Barnard College of Columbia University </b><span class="w3-opacity"> May 2020</span></h4>
-    </div>
-    <div class="w3-container w3-margin-left ">
-    	<h4><b>Major:</b> Computer Science - Intelligent Systems</h4>
-    	<h5><b>Relavant Coursework:</b></h5>
-      <ul style="list-style-type: circle;">
-      	<li>Artificial Intelligence</li>
-        <li>Natural Language Processing</li>
-        <li>Data Visualization</li>
-        <li>Visual Interfaces to Computer Systems</li>
-        <li>Probability and Statistics</li>
-        <li>Linear Algebra</li>
-      </ul>
-    </div>
-    <div class="w3-container">
-      <h2><b>Notable Projects</b></h2>
-      <h4><b>Jinshin Jiko</b> - <i>JavaScript(D3), Python</i></h4>
-      <h6> A collaboritive data story on Japan's 人身事故 (Suicides by Train) in Japan. We scraped and cleaned raw data from <a href="https://jinshinjiko.com/">Laboneko's site</a> and added each station's geolocation data using <a href="https://locationiq.com/">LocationIQ's geocoding API</a>. Using this data we developed a data story with interactive data visualziations using D3.
-      <h6><a href="https://japantrainincidents.github.io/">Final Product</a><br><br>
-      <h4><b>Paper Doll</b> - <i>Python(OpenCV)</i></h4>
-      <h6> An application that allows a user to try on clothing and accessories using their webcam. Developed using OpenCV and haars cascades to transform articles of clothing and fit them over a live video.
-      <br><br><br>
-    </div>
-  </div>
-
-
-  <!-- Projects -->
-  
-<!-- END BLOG ENTRIES -->
-</div>
-
-<!-- Introduction menu -->
-<div class="w3-cell">
-  <!-- About Card -->
-  <div class="w3-card w3-margin">
-    <div class="w3-container" style="background-color: #F5E1FD;">
-      <h4 class="w3-text-dark-gray w3-center"><b><i>Contact Me</i></b></h4>
-      <p><i class="fa fa-phone fa-fw w3-margin-right" style="background-color: #b399d4"></i><br>610-751-7994</p>
-      <p><i class="fa fa-envelope fa-fw w3-margin-right" style="background-color: #b399d4"></i>courtney.mok.hk@gmail.com</p>
-      <p><i class="fa fa-home fa-fw w3-margin-right" style="background-color: #b399d4"></i><br>New York/Hong Kong</p>
-    </div>
-  </div>
-  
-  <!-- Posts -->
-  <div class=" w3-card w3-margin">
-    <div class="w3-container w3-padding" style="background-color: #F5E1FD">
-      <h3 class="w3-center w3-text-dark-gray"><b>Technical Skills</b></h3>
-    </div>
-    <ul class="w3-ul" style="background-color: #F5E1FD;" >
-      <li class="w3-padding-16" >
-        <span class="w3-large"><b>Programming:</b></span><br>
-        <span class="w3-margin-left">Python</span><br>
-        <span class="w3-margin-left">Java</span><br>
-        <span class="w3-margin-left">JavaScript</span><br>
-        <span class="w3-margin-left">HTML5/CSS</span>
-      </li>
-      <li class="w3-padding-16">
-        <span class="w3-large"><b>Data Modeling: </b></span><br>
-        <span class="w3-margin-left">Tableau</span><br>
-      </li> 
-      <li class="w3-padding-16">
-        <span class="w3-large"><b>Collaboration: </b></span><br>
-        <span class="w3-margin-left">Git</span><br>
-        <span class="w3-margin-left">Google Cloud</span><br>
-        <span class="w3-margin-left">Jupyter Notebook</span><br>
-      </li> 
-      <li class="w3-padding-16">
-        <span class="w3-large"><b>Graphic Design: </b></span><br>
-        <span class="w3-margin-left">Adobe Photoshop</span><br>
-        <span class="w3-margin-left">Clipart Studio</span><br>
-        <span class="w3-margin-left">Procreate</span><br>
-      </li> 
-      <div class="w3-container w3-padding">
-      <h3 class="w3-center w3-text-dark-gray"><b>Spoken Languages</b></h3>
-  		</div>
-      <li class="w3-padding-16">
-        <span class="w3-large">Fluent:</span><br>
-        <span class="w3-margin-left">English</span><br>
-        <span class="w3-margin-left">Mandarin</span><br>
-      </li>   
-      <li class="w3-padding-16">
-      	<span class='w3-large'>Conversational</span><br>
-      	<span class="w3-margin-left">Cantonese</span><br>
-        <span class="w3-margin-left">Japanese</span><br>
-        <span class="w3-margin-left">Korean</span> 
-    </ul>
-  </div>
- 
-  
-<!-- END Introduction Menu -->
-</div>
-
-
-<!-- END GRID -->
-</div><br>
-
-<!-- END w3-content -->
-</div>
-
-<footer class="w3-container w3-center w3-margin-top" style="background-color: #F5E1FD">
-  <p>Find me on social media.</p>
-  <i class="fa fa-instagram w3-hover-opacity"></i>
-  <i class="fa fa-github w3-hover-opacity"></i>
-  <i class="fa fa-linkedin w3-hover-opacity"></i>
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
-</footer>
-
-</body>
+        <div class="w3-row w3-margin">
+            <div class="w3-col m3 w3-center w3-margin-right" style="padding-top: 100px;">
+                <h6 id="blue" style="font-family:consolas;"><i>self.</i><span id="purple">about</h6>
+                    <img src="./assets/me.jpg" alt="me" style="width:20vw; border-radius: 50%;">
+                </div>
+                <div class="w3-col m8 w3-left-align w3-right" id="about">
+                    
+                    <blockquote>
+                        I’m a data scientist with a background in Artificial Intelligence and Machine Learning and a passion for developing innovative data stories. I have a passion for coding and to continue learning new libraries and develop my coding skills. I am interested in the intersection of data decision making and strive to develop creative and efficient solutions to challenging problems. I have experience self managing large solo projects, but I also thrive in cooperative environments as a leader and as a team player.
+                        <br><br>
+                        I love learning languages whether it's  spoken languages or a computer languages. I grew up speaking Mandarin and Cantonese and in college I picked up Japanese and Korean. In my spare time I enjoy playing video games, making digital art, and playing with my dog Luna - who just so happends to be the best girl in the entire world.
+                        <br><br>
+                        <button class="primary-btn">ABOUT ME</button>
+                    </blockquote>
+                   
+                </div>
+                
+            </div>
+        </div>
+        <!--End About-->
+       
+        <!--Footer-->
+        <footer class="w3-container w3-center w3-margin-top" style="background-color: #F5E1FD">
+            <p>Find me on social media.</p>
+            <i class="fa fa-instagram w3-hover-opacity">&emsp;&emsp;</i>
+            <i class="fa fa-github w3-hover-opacity">&emsp;&emsp;</i>
+            <i class="fa fa-linkedin w3-hover-opacity"></i>
+            <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+          </footer>
+    </body>
 </html>
