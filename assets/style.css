@@ -14,6 +14,14 @@ h6 {
     font-size: 2.7vw;
 }
 
+h6.header {
+    font-size: 3vw;
+    font-family: "Raleway";
+    font-weight: 900;
+    letter-spacing: 2px;
+    color: #8037a0;
+}
+
 h7 {
     font-size: 2.3vw;
     display: block;
@@ -29,11 +37,24 @@ a {
 }
 
 a.current_project {
-    color: #b97ad4;
+    color: #ab66c9;
 }
 
 a.current_project:hover {
     color: #d9c1e2;
+}
+
+a.git {
+    color: #8037a0;
+    font-weight: 800;
+}
+
+a.git:hover {
+    color: #d9c1e2;
+}
+
+img.insta {
+    width: 30%;
 }
 
 blockquote {
@@ -103,14 +124,22 @@ button.primary-btn:hover {
 }
 
 #purple {
+    font-family: "consolas";
     color: #851c85;
 }
 
 #blue {
+    font-family: "consolas";
     color: #65a9c9;
 }
 
+#str {
+    font-family: "consolas";
+    color: rgb(90, 90, 170);
+}
+
 #string {
+    font-family: "Consolas";
     color: rgb(90, 90, 170);
 }
 
