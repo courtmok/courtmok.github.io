@@ -114,7 +114,7 @@ button.primary-btn:hover {
 }
 
 #code {
-    font-family: consolas;
+    font-family: monaco;
     color: #aa65aa;
     overflow: hidden;
 }
@@ -124,22 +124,22 @@ button.primary-btn:hover {
 }
 
 #purple {
-    font-family: "consolas";
+    font-family: "monaco";
     color: #851c85;
 }
 
 #blue {
-    font-family: "consolas";
+    font-family: "monaco";
     color: #65a9c9;
 }
 
 #str {
-    font-family: "consolas";
+    font-family: "monaco";
     color: rgb(90, 90, 170);
 }
 
 #string {
-    font-family: "Consolas";
+    font-family: "monaco";
     color: rgb(90, 90, 170);
 }
 
@@ -162,23 +162,23 @@ button.primary-btn:hover {
 }
 
 .css-typing {
-    font-family: "Courier";
+    font-family: "monaco,monaco,monospace;";
     font-size: 14px;
     width: 50em;
     white-space: nowrap;
     overflow: hidden;
-    -webkit-animation: type 1s steps(40, end);
-    animation: type 1s steps(40, end);
+    -webkit-animation: type .7s steps(40, end);
+    animation: type .7s steps(40, end);
 }
 
 .css-typing:nth-child(2) {
     white-space: nowrap;
     overflow: hidden;
     opacity: 0;
-    -webkit-animation: type 1s steps(40, end);
-    animation: type2 1s steps(40, end);
-    -webkit-animation-delay: 1s;
-    animation-delay: 1s;
+    -webkit-animation: type .7s steps(40, end);
+    animation: type2 .7s steps(40, end);
+    -webkit-animation-delay: .4s;
+    animation-delay: .4;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
 }
@@ -187,10 +187,10 @@ button.primary-btn:hover {
     white-space: nowrap;
     overflow: hidden;
     opacity: 0;
-    -webkit-animation: type 1s steps(40, end);
-    animation: type3 1s steps(40, end);
-    -webkit-animation-delay: 2s;
-    animation-delay: 2s;
+    -webkit-animation: type .7s steps(40, end);
+    animation: type2 .7s steps(40, end);
+    -webkit-animation-delay: .8s;
+    animation-delay: .8s;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
 }
@@ -199,10 +199,10 @@ button.primary-btn:hover {
     white-space: nowrap;
     overflow: hidden;
     opacity: 0;
-    -webkit-animation: type 1s steps(40, end);
-    animation: type3 1s steps(40, end);
-    -webkit-animation-delay: 3s;
-    animation-delay: 3s;
+    -webkit-animation: type .7s steps(40, end);
+    animation: type2 .7s steps(40, end);
+    -webkit-animation-delay: 1.3s;
+    animation-delay: 1.3s;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
 }
@@ -211,10 +211,22 @@ button.primary-btn:hover {
     white-space: nowrap;
     overflow: hidden;
     opacity: 0;
-    -webkit-animation: type 1s steps(40, end);
-    animation: type3 1s steps(40, end);
-    -webkit-animation-delay: 4s;
-    animation-delay: 4s;
+    -webkit-animation: type .7s steps(40, end);
+    animation: type2 .7s steps(40, end);
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+.css-typing:nth-child(6) {
+    white-space: nowrap;
+    overflow: hidden;
+    opacity: 0;
+    -webkit-animation: type .7s steps(40, end);
+    animation: type2 .7s steps(40, end);
+    -webkit-animation-delay: 2.6s;
+    animation-delay: 2.6s;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
 }
@@ -250,114 +262,6 @@ button.primary-btn:hover {
 }
 
 @-webkit-keyframes type2 {
-    0% {
-        width: 0;
-    }
-    from {
-        opacity: 0;
-    }
-    1% {
-        opacity: 1;
-    }
-    to {
-        opacity: 1;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
-@keyframes type3 {
-    0% {
-        width: 0;
-    }
-    from {
-        opacity: 0;
-    }
-    1% {
-        opacity: 1;
-    }
-    to {
-        opacity: 1;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
-@-webkit-keyframes type3 {
-    0% {
-        width: 0;
-    }
-    from {
-        opacity: 0;
-    }
-    1% {
-        opacity: 1;
-    }
-    to {
-        opacity: 1;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
-@keyframes type4 {
-    0% {
-        width: 0;
-    }
-    from {
-        opacity: 0;
-    }
-    1% {
-        opacity: 1;
-    }
-    to {
-        opacity: 1;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
-@-webkit-keyframes type4 {
-    0% {
-        width: 0;
-    }
-    from {
-        opacity: 0;
-    }
-    1% {
-        opacity: 1;
-    }
-    to {
-        opacity: 1;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
-@keyframes type5 {
-    0% {
-        width: 0;
-    }
-    from {
-        opacity: 0;
-    }
-    1% {
-        opacity: 1;
-    }
-    to {
-        opacity: 1;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
-@-webkit-keyframes type5 {
     0% {
         width: 0;
     }
