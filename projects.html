@@ -2,54 +2,69 @@
 <html>
 
 <head>
-    <title> Courtney Kaye Mok</title>
+    <title> Projects </title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap" >
     <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <script src="https://kit.fontawesome.com/437d2b3dda.js" crossorigin="anonymous"></script>
+
 </head>
+<script>
+    var spans = '<span>' + str.split('').join('</span><span>') + '</span>';
+    $(spans).hide().appendTo('.css-typing').each(function(i) {
+        $(this).delay(100 * i).css({
+            display: 'inline',
+            opacity: 0
+        }).animate({
+            opacity: 1
+        }, 100);
+    });
+</script>
 
 <body>
+    <!--Header-->
     <div class="w3-top">
         <div class="w3-bar w3-padding w3-card">
             <img src="./assets/CM_Logo.png" class="w3-bar-item" style="width:80px">
-            <a href="index.html" class="w3-bar-item" style="margin-top: 10px; margin-left:0px;font-size: 20px">  Courtney Kaye Mok</a>
+            <a href="index.html" class="w3-bar-item" style="margin-top: 8px; margin-left:0px;font-size: 23px">  Courtney Kaye Mok</a>
             <a href="./assets/Resume.pdf" target="_blank" class="w3-bar-item w3-right">Resume</a>
             <!--<a href="blogposts.html" class="w3-bar-item w3-right">Blog Posts</a>-->
-            <a href="lulu_lala.html" class="w3-bar-item w3-right">♡ LuLu & LaLa ♡</a>
-            <a href="portfolio.html" class="w3-bar-item w3-right">Portfolio</a>
-            <a href="about.html" class="w3-bar-item w3-right">About</a>
+            <a href="pets.html" class="w3-bar-item w3-right">Pets ♡</a>
+            <a href="projects.html" class="w3-bar-item w3-right">Projects</a>
+            <a href="index.html#about" class="w3-bar-item w3-right">About</a>
         </div>
     </div>
+    <!--End Header-->
 
     <div class="w3-panel">
         <p></p>
         <p></p>
         <p></p>
     </div>
-    <!--Intro-->
-    <!--Header -->
-    <div class="w3-container" id='section' style="background-color: rgb(246, 246, 246);">
-        <div class="w3-row">
-            <div class="w3-container" style='text-align: center;'>
-
-                <h6 id="code"><i>class </i><b id="purple" style='font-size: 3vw;'>Portfolio</b><span id='grey'>:</span> </h6>
-
-                <h4 style='font-family: Raleway;'> In-depth descriptions of some projects I've worked on! If you want a closer look at my repos check out my <a href="https://github.com/courtmok" target="_blank" class='git'>GitHub <i class="fa fa-github w3-hover-opacity" style="font-size: 20px;">&emsp;&emsp;</i></a></h4>
-                <br>
-
+      <!--Intro-->
+      <div class="w3-container w3-margin-top w3-center" id='head-section'>
+        <div class="w3-row w3-margin">
+            <div class="w3-col s8 m8 w3-left-align">
+                <div class="css-typing">
+                    <h1 id="code" style="padding-left:5vw"><i>class </i><span id="purple">Projects</span><span id='grey'>:</span></h1>
+                </div>
             </div>
         </div>
+
+    
+        
     </div>
+    <!--End Intro-->
     <!--Portfolio Items-->
     <!--Item 1-->
     <div class="w3-container w3-margin-top" style="margin-left: 20px;">
         <div class="w3-row w3-margin">
             <div class="w3-col m3 w3-center w3-margin-right" style="padding-top: 100px;">
-                <h6 class="header">IPA Rhyme Generator</h6>
+                <h1 class="header">IPA Rhyme Generator</h1>
                 <img src="./assets/IPA.png" alt="me" style="width:20vw; border-radius: 50%;">
             </div>
             <div class="w3-col m8 w3-left-align w3-right" id="about">
@@ -84,7 +99,7 @@
 
             </div>
             <div class="w3-col m3 w3-center w3-margin-right" style="padding-top: 100px;">
-                <h6 class='header'>Sub-Reddit Classifier</h6>
+                <h1 class='header'>Sub-Reddit Classifier</h1>
                 <img src="./assets/Reddit.png" alt="reddit" style="width:20vw; border-radius: 50%;">
             </div>
 
@@ -95,13 +110,13 @@
     <div class="w3-container w3-margin-top" style="margin-left: 20px;">
         <div class="w3-row w3-margin">
             <div class="w3-col m3 w3-center w3-margin-right" style="padding-top: 100px;">
-                <h6 class='header'>Japan's Train Incidents</h6>
+                <h1 class='header'>Japan's Train Incidents</h1>
                 <img src="./assets/JTI.png" alt="japantrainincidents" style="width:20vw; border-radius: 50%;">
             </div>
             <div class="w3-col m8 w3-left-align w3-right" id="about">
 
                 <blockquote>
-                    "Jishinjiko" translates literally to "human incident" and is the Japanese term for a suicide by train. My team and I created a collaborative data story analyzing trends in these suicides. We scraped the raw data from the Laboneko website, cleaned it, and used LocationIQ's geocoding API to find the geolocation data of every station in Japan. 
+                    "Jinshinjiko" translates literally to "human incident" and is the Japanese term for a suicide by train. My team and I created a collaborative data story analyzing trends in these suicides. We scraped the raw data from the Laboneko website, cleaned it, and used LocationIQ's geocoding API to find the geolocation data of every station in Japan. 
                     Using Tableau and JavaScript’s D3 library, we explored the data and created a data story with interactive data visualizations hosted on a <a href="https://japantrainincidents.github.io/" class="git">github webpage</a> 
                     <br>
                     <br>
@@ -114,11 +129,12 @@
     <!--End Item 3-->
     <!--End Portfolio Items-->
     <!--Footer-->
-    <footer class="w3-container w3-center w3-margin-top" style="background-color: #F5E1FD">
-        <p>Find me on social media.</p>
-        <a href="https://github.com/courtmok" target="_blank"><i class="fa fa-github w3-hover-opacity">&emsp;&emsp;</i></a>
-        <a href="https://www.linkedin.com/in/courtneykayemok/" target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
-        <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+    <footer class="w3-container w3-center">
+        <div style="padding-top:6vh;">
+            <a href="https://github.com/courtmok" target="_blank"><i class="fa-brands fa-github" id="icon" ></i></a>
+            <a href="https://www.linkedin.com/in/courtneykayemok/" target="_blank"><i class="fa-brands fa-linkedin" id="icon" ></i></a>
+            <a href="mailto: courtney.mok.hk@gmail.com" target="_blank"><i class="fa-solid fa-envelope" id="icon" ></i></a>
+        </div>
     </footer>
 
 </body>

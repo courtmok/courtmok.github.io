@@ -1,3 +1,7 @@
+/* MAIN TAGS */
+html {
+    scroll-behavior: smooth;
+}
 body {
     margin-top: -1px;
     margin-bottom: -1px;
@@ -9,151 +13,155 @@ body {
 div {
     position: relative;
 }
-
-h6 {
-    font-size: 2.7vw;
+footer {
+    border-top-color: #d9c6fb;
+    border-top-style:double;
+    height:20vh;
+}
+h1 {
+    font-size: 3.5vw;
+    margin: -.05rem;
 }
 
-h6.header {
-    font-size: 3vw;
+h1.header {
+    font-size: 3.3vw;
     font-family: "Raleway";
     font-weight: 900;
     letter-spacing: 2px;
-    color: #8037a0;
+    color: #8e67d0;
+}
+h1.def {
+    
+    font-family:"courier";
+    padding-left: 2vw;
+}
+h2 {
+    font-size: 2.9vw;
+    display: block;
+    margin: -.05rem;
 }
 
-h7 {
-    font-size: 2.3vw;
+h3 {
+    font-size:2.3vw;
     display: block;
 }
 
-ul,
-p {
+ul, p {
     margin-top: -1px;
-}
-
-a {
-    text-decoration: none;
-}
-
-a.current_project {
-    color: #ab66c9;
-}
-
-a.current_project:hover {
-    color: #d9c1e2;
-}
-
-a.git {
-    color: #8037a0;
-    font-weight: 800;
-}
-
-a.git:hover {
-    color: #d9c1e2;
-}
-
-img.insta {
-    width: 30%;
-}
-
-blockquote {
-    padding: 30px 30px 30px 30px;
-    background: #fff;
-    border-left: 2px solid #F5E1FD;
-    font-family: "Raleway";
     font-size: 18px;
-    letter-spacing: 1px;
     color: rgb(94, 94, 94);
+    font-family: "Raleway";
+    letter-spacing: 1px;
 }
 
 .w3-bar {
     letter-spacing: 4px;
-    background-color: #F5E1FD;
+    background-color: #ede2ff;
 }
-
+a.w3-bar-item {
+    color: #7a4bba;
+    font-size: 17px;
+}
 .w3-right {
     margin-top: 15px;
     font-size: 15px;
     letter-spacing: 1px;
 }
 
+blockquote {
+    padding: 10px 0px 30px 30px;
+    border-left: 2px solid #d9c6fb;
+    font-family: "Raleway";
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: rgb(94, 94, 94);
+}
+
+/* LINKS */
 a.w3-bar-item:hover {
-    color: #b97ad4;
+    color: rgb(255, 255, 255);
     transition: color .25s
 }
 
-.Intro {
-    margin-top: 13vh;
+a {
+    text-decoration: none;
 }
 
+a.link {
+    color: #8b41df;
+    font-weight: 600;
+}
+
+a.link:hover {
+    color: #cdb6e3;
+}
+
+img.insta {
+    width: 30%;
+}
+
+/* CLASSES */
+
+.icon{
+    color: #7156b0;
+    font-size: 5vw;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    transition: all 0.2s cubic-bezier(0.41, 0, 0.25, 1.01);
+}
+.icon span{
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    font-size: 1.3vw;
+    text-transform: uppercase;
+    text-align:center;
+
+}
+.sub-icon {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    font-size: 1.3vw;
+    text-transform: uppercase;
+    color: #7156b0;
+    padding-top: 1vw;
+}
 .primary-btn {
-    background: #F5E1FD;
+    background: #d9c6fb;
     line-height: 42px;
     padding-left: 30px;
     padding-right: 30px;
     border: none;
-    color: #b97ad4;
+    color: #6239a0;
     border-radius: 15px;
     display: inline-block;
     position: relative;
-    font-weight: bold;
     letter-spacing: 1px;
 }
 
 button.primary-btn:hover {
-    background: #b97ad4;
+    background: #9f7ad4;
     color: #F5E1FD;
     cursor: pointer;
     transition: ease-in .2s;
 }
 
-#section {
-    padding-top: 100px;
-    padding-bottom: 40px;
+/* ID */
+#opening {
+    height: 90vh;
+    background-color: rgb(250, 246, 255);
 }
-
-#code {
-    font-family: monaco;
-    color: #aa65aa;
-    overflow: hidden;
+#head-section{
+    height:40vh;
+    padding-top: 10vh;
+    background-color: rgb(250, 246, 255);
 }
-
-#grey {
-    color: #353535;
-}
-
-#purple {
-    font-family: "monaco";
-    color: #851c85;
-}
-
-#blue {
-    font-family: "monaco";
-    color: #65a9c9;
-}
-
-#str {
-    font-family: "monaco";
-    color: rgb(90, 90, 170);
-}
-
-#string {
-    font-family: "monaco";
-    color: rgb(90, 90, 170);
-}
-
-#string:hover {
-    color: rgb(154, 154, 211);
-    cursor: pointer;
-}
-
 #intro {
-    padding-top: 60px;
-}
+    padding-left: 2vw;
+    padding-top: 30vh;
 
-#about {
-    padding-top: 60px;
 }
 
 #photo {
@@ -161,24 +169,76 @@ button.primary-btn:hover {
     margin-right: 0;
 }
 
+#icon {
+    color: #af90e5;
+    font-size: 3.5vw;
+    padding-left: 40px;
+}
+#icon:hover{
+    color: #d9c6fb;
+}
+
+/* CODE FORMATTING IDS */
+
+#code {
+    font-family: courier;
+    color: #e5a0e5;
+    overflow: hidden;
+}
+
+#grey {
+    color: #9f9f9f;
+}
+
+#purple {
+    font-family: "courier";
+    color: #8e67d0;
+}
+#light-purple {
+    font-family: "courier";
+    color: #bb96e2;
+}
+#blue {
+    font-family: "courier";
+    color: #65a9c9;
+}
+
+#str {
+    font-family: "courier";
+    color: rgb(106, 129, 218);
+}
+
+#string {
+    font-family: "courier";
+    color: rgb(106, 129, 218);
+}
+
+#string:hover {
+    color: rgb(178, 191, 243);
+    cursor: pointer;
+}
+
+
+
+/* ANIMATION */
 .css-typing {
-    font-family: "monaco,monaco,monospace;";
+    font-family: "courier,monospace;";
     font-size: 14px;
-    width: 50em;
+    width: 100em;
     white-space: nowrap;
     overflow: hidden;
-    -webkit-animation: type .7s steps(40, end);
-    animation: type .7s steps(40, end);
+    -webkit-animation: type 1s steps(40, end);
+    animation: type 1s steps(40, end);
 }
 
 .css-typing:nth-child(2) {
     white-space: nowrap;
     overflow: hidden;
     opacity: 0;
-    -webkit-animation: type .7s steps(40, end);
-    animation: type2 .7s steps(40, end);
-    -webkit-animation-delay: .4s;
-    animation-delay: .4;
+    -webkit-animation: type 1s steps(40, end);
+    animation: type2 1s steps(40, end);
+    -webkit-animation-delay: .8s;
+    animation-delay: .8;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
 }
@@ -187,10 +247,10 @@ button.primary-btn:hover {
     white-space: nowrap;
     overflow: hidden;
     opacity: 0;
-    -webkit-animation: type .7s steps(40, end);
-    animation: type2 .7s steps(40, end);
-    -webkit-animation-delay: .8s;
-    animation-delay: .8s;
+    -webkit-animation: type 1s steps(40, end);
+    animation: type2 1s steps(40, end);
+    -webkit-animation-delay: 1.7s;
+    animation-delay: 1.7s;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
 }
@@ -201,8 +261,8 @@ button.primary-btn:hover {
     opacity: 0;
     -webkit-animation: type .7s steps(40, end);
     animation: type2 .7s steps(40, end);
-    -webkit-animation-delay: 1.3s;
-    animation-delay: 1.3s;
+    -webkit-animation-delay: 2.2s;
+    animation-delay: 2.2s;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
 }
@@ -213,8 +273,8 @@ button.primary-btn:hover {
     opacity: 0;
     -webkit-animation: type .7s steps(40, end);
     animation: type2 .7s steps(40, end);
-    -webkit-animation-delay: 2s;
-    animation-delay: 2s;
+    -webkit-animation-delay: 2.8s;
+    animation-delay: 2.8s;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
 }
